@@ -64,7 +64,7 @@
   "devDependencies": {
     "@types/react": "~18.2.45",
     "@babel/core": "^7.20.0",
-    "bare-dev": "^0.10.9",
+    "bare-dev": "^0.10.11",
     "typescript": "^5.3.0",
     "which": "^4.0.0"
   }

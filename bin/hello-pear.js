@@ -149,6 +149,7 @@ async function action () {
   // configure
 
   if (options.configure) {
+    console.log('=============> ', { ios, iosSimArm64, iosSimX64, hasDarwin, hasAndroid, options });
     if (ios) {
       commands.push(() => bareConfigure(optionsIos))
     }
